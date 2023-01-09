@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.toolbox-cont{
+    height: 5rem;
+    background-color: beige;
+    display: flex;
+}
+.toolbox-priority-cont{
+    height: 3rem;
+    width: 20rem;
+    background-color: blue;
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.action-btn-cont{
+    height: 3rem;
+    width: 5rem;
+    background-color: greenyellow;
+    margin: auto;
+    display: flex;
+}
+.action-btn-cont>*{
+    margin: auto;
+    font-size: 2.5rem;
+}
+.color{
+    height: 1.5rem;
+    width: 3rem;
+    background-color: lightcyan;
+    margin: auto;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.action-btn-cont>*:hover{
+background-color:lightgreen;
+}
+.modal-cont{
+    height: 50vh;
+    width: 45vw;
+    background-color: brown;
+    /* margin: auto; */
+    position: absolute;
+    top: calc( ( 100vh - 50vh) / 2 );
+    left: calc( ( 100vw - 45vw) / 2 );
+    display: none;
+}
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: blueviolet;
+    padding: 2rem;
+    font-size: larger;
+}
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+ align-items: center;
+}
+.priority-color-cont>*{
+height: 2rem;
+width: 60%;
+}
+.border{
+    border: 5px solid rgb(174, 169, 169);
+}
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color: black;
+    
+}
+.ticket-id{
+    height: 2rem;
+    background-color: rgb(192, 124, 36);
+    padding: 0.4rem;
+}
+.ticket-color{
+    height: 1rem;
+   
+}
+.task-area{
+    height: calc(100% - 1rem - 2rem - 2rem);
+    background-color: blue;
+    padding: 0.4rem;
+    outline: none;
+}
+.ticket-lock{
+    height: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    background-color: blue;
+
+
+}
+.main-cont{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+}
